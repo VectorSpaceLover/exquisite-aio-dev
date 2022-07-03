@@ -1,0 +1,19 @@
+.section {
+    padding: 80px 0;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--mercury);
+    
+    &__heading {
+      margin: 30px 0 15px;
+      color: var(--white);
+      font-size: 32px;
+      text-transform: uppercase;
+    }
+  
+    &__paragraph {
+      font-family: "IBM Plex Sans";
+      padding-bottom: 30px;
+      color: var(--white);
+      opacity: 0.5;
+    }
+  }

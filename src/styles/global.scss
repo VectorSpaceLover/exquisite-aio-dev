@@ -1,0 +1,29 @@
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-sans/400.css";
+
+$background: #050c10;
+
+:root {
+  --black:     #000000;
+  --white:     #ffffff;
+  --mercury:   #E5E5E5;
+}
+div {
+  // height: 100%;
+  // width: 100%;
+}
+html, body, #root {
+  scroll-behavior: smooth;
+  background-color: #050c10;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+p {
+  color: white;
+}
+.panel {
+  background-color: #151B1F;
+}

@@ -1,0 +1,41 @@
+// import css from 'styled-jsx/css';
+
+// export default css`
+const style = `
+.footer {
+  padding: 40px 0;
+  background-color: var(--black);
+
+  &__by {
+    display: inline-block;
+    padding-right: 15px;
+    color: var(--white);
+    font-size: 14px;
+  }
+
+  &__link, &__icon {
+    display: flex;
+  }
+
+  &__link, &__icon {
+    padding: 10px;
+  }
+
+  &__link {
+    opacity: 75%;
+
+    &:hover {
+      opacity: 100%;
+    }
+  }
+
+  &__icon {
+    opacity: 25%;
+
+    &:hover {
+      opacity: 100%;
+    }
+  }
+}
+`
+export default style
