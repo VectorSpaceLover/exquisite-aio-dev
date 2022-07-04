@@ -1,0 +1,28 @@
+.home {
+  &_side_bar {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 146px;
+  }
+  &_side_bar img:not(:first-child) {
+    width: 41px;
+    height: 41px;
+  }
+  &_side_bar > div {
+    width: 100%;
+  }
+  &_side_bar > div > div {
+    width: 67px;
+    // height: 61px;
+    border-radius: 15px;
+    text-align: center;    
+  }
+  &_side_bar > div > div:not(:first-child) {
+    padding: 13px;
+  }
+  &_side_bar .active {
+    background-color: rgba(16, 35, 47, 0.13);
+  }
+  
+}
